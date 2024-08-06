@@ -1,0 +1,136 @@
+// .container {
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   width: 640px;
+
+//   background-image: url(../../assets/circles.svg);
+//   background-repeat: no-repeat;
+
+//   .closeBtn {
+//     all: unset;
+//     position: absolute;
+//     right: 16px;
+//     top: 16px;
+//     width: 44px;
+//     height: 44px;
+//     display: grid;
+//     place-items: center;
+//     cursor: pointer;
+//   }
+
+//   .modalHeader {
+//     border: 1px solid blue;
+
+//     .circle {
+//       .flag {
+//         position: relative;
+//         top: 20px;
+//         left: 20px;
+//         margin-bottom: 2rem;
+//       }
+//     }
+//     .content {
+//       padding: 0 24px;
+//       .title {
+//         font-size: 1rem;
+//         line-height: 1.5rem;
+//         color: #101828;
+//         font-weight: 600;
+//         margin-bottom: 0.5rem;
+//       }
+//       .info {
+//         font-size: 12px;
+//         line-height: 18px;
+//         font-weight: 400;
+//         color: #475467;
+//       }
+//     }
+//   }
+
+//   form {
+//     padding: 0.5rem 24px;
+//     .titleInput {
+//       input {
+//         width: 100%;
+//         border: 1px solid #d0d5dd;
+//         padding: 10px 14px;
+//         border-radius: 0.5rem;
+//         margin-top: 6px;
+//         outline: none;
+//         &::placeholder {
+//           font-size: 14px;
+//         }
+//       }
+//     }
+
+//     .companyBlock {
+//       display: flex;
+//       justify-content: space-between;
+//       margin-top: 1rem;
+//       .companyInput {
+//         position: relative;
+//         label {
+//           font-weight: 500;
+//           color: rgba(52, 64, 84, 1);
+//           font-size: 14px;
+//         }
+//         .searchIcon {
+//           position: absolute;
+//           top: 35px;
+//           left: 10px;
+//         }
+//       }
+
+//       .webInput {
+//         label {
+//           font-weight: 500;
+//           color: rgba(52, 64, 84, 1);
+//           font-size: 14px;
+//         }
+//         .webCompact {
+//           display: flex;
+//           align-items: center;
+//           width: 280px;
+//           margin-top: 6px;
+//           p {
+//             border: 1px solid #d0d5dd;
+//             padding: 8px;
+//             border-top-left-radius: 0.5rem;
+//             border-bottom-left-radius: 0.5rem;
+//           }
+//         }
+//       }
+//     }
+
+//     .locationBlock {
+//       margin-top: 1rem;
+//       .locationInput {
+//         position: relative;
+//         label {
+//           font-weight: 500;
+//           color: rgba(52, 64, 84, 1);
+//           font-size: 14px;
+//         }
+//         .searchIcon {
+//           position: absolute;
+//           top: 35px;
+//           left: 10px;
+//         }
+//         input {
+//           width: 280px;
+//           border: 1px solid #d0d5dd;
+//           padding: 10px 14px 10px 34px;
+//           border-radius: 0.5rem;
+//           margin-top: 6px;
+//           box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+//           outline: none;
+//           &::placeholder {
+//             font-size: 14px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
